@@ -116,8 +116,7 @@ struct CittaImpostataView: View {
                     }
                 }
                 .fixedSize()
-                .padding(.top)
-                .padding(.bottom)
+                .padding([.top, .bottom])
                 
             }
             .frame(width: UIScreen.main.bounds.width * 0.90, alignment: .center)
