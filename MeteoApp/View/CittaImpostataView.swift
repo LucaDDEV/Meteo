@@ -120,8 +120,8 @@ struct CittaImpostataView: View {
                 
             }
             .frame(width: UIScreen.main.bounds.width * 0.90, alignment: .center)
-            .background(Color(#colorLiteral(red: 0.1697510481, green: 0.2524770796, blue: 0.4629386067, alpha: 1)))
             .foregroundColor(.white)
+            .background(Color(#colorLiteral(red: 0.1697510481, green: 0.2524770796, blue: 0.4629386067, alpha: 1)))
             .cornerRadius(25)
             
             Spacer()
